@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Il front-end spiegato alle bionde</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blonde.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-transition="slide-in fade-out">
+					<h1 class="title">Il front-end spiegato alle bionde</h1>
+					<p class="author">@giucot_</p>
+				</section>
+
+				<section>
+					<div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+						<img src="./images/giulia2.jpg" style="max-width: 25%; " alt="">
+						<div style="margin: 40px; text-align: right;">
+							<h5>Giulia Talamonti</h5>
+							<p>Junior UI developer in Objectway</p>
+							<p>twitter: @giucot_</p>
+						</div>
+					</div>
+					
+				</section>
+
+				<section data-transition="slide-in fade-out">
+				  <section>
+				  	<h2>Le difficoltà</h2>
+						<img src="./images/blonde-cow.gif" style="max-width:400px;"alt="">
+					</section>
+				</section>
+
+				<section data-transition="slide-in fade-out">
+				  	<h2>Giusto un paio di tools</h2>
+				  	<div class="puzzle-pics-container">
+				  		<img src="./images/gulp.jpg" class="puzzle-pic puzzle-pic--round" alt="">
+				  		<img src="./images/grunt.png" class="puzzle-pic" alt="">
+							<img src="./images/webpack.png" class="puzzle-pic" alt="">
+							<img src="./images/pug.svg" class="puzzle-pic" alt="">
+							<img src="./images/handlebars.png" class="puzzle-pic" alt="">
+							<img src="./images/sass.png" class="puzzle-pic" alt="">
+							<img src="./images/less.png" class="puzzle-pic" alt="">
+							<img src="./images/postcss.jpg" class="puzzle-pic puzzle-pic--round" alt="">
+							<img src="./images/yeoman.png" class="puzzle-pic" alt="">
+							<img src="./images/npm.png" class= "puzzle-pic puzzle-pic--round" alt="">
+							<img src="./images/bower.png" class="puzzle-pic" alt="">
+							<img src="./images/yarn.png" class="puzzle-pic puzzle-pic--round" alt="">
+							<img src="./images/typescript.png" class="puzzle-pic" alt="">
+							<img src="./images/react.png" class="puzzle-pic puzzle-pic--round" alt="">
+							<img src="./images/angular.png" class="puzzle-pic" alt="">
+							<img src="./images/bless.png" class="puzzle-pic" alt="">
+							<img src="./images/browserify.png" class="puzzle-pic" alt="">
+							<img src="./images/mocha.png" class="puzzle-pic" alt="">
+							<img src="./images/polymer.png" class="puzzle-pic" alt="">
+							<img src="./images/react.png" class="puzzle-pic puzzle-pic--round" alt="">
+							<img src="./images/amber.png" class="puzzle-pic" alt="">
+							<img src="./images/babel.png" class="puzzle-pic" alt="">
+							<img src="./images/broccoli.png" class="puzzle-pic" alt="">
+							<img src="./images/haml.png" class="puzzle-pic" alt="">
+							<img src="./images/requirejs.png" class="puzzle-pic" alt="">
+							<img src="./images/webcomponents.png" class="puzzle-pic" alt="">
+							<img src="./images/autoprefixer.png" class="puzzle-pic" alt="">
+				  	</div>						
+					
+				</section>
+
+				<section data-transition="slide-in fade-out">
+					<h2 style="text-transform: capitalize;">Workflow The Fuck</h2>
+					<img src="./images/wtf-2.gif" style="max-width:400px;" alt="">
+				</section>
+
+				<section data-transition="slide-in fade-out">
+
+					<section data-transition="slide-in fade-out">
+						<h2>Front-end developer <br> cosa significa?</h2>
+					</section>
+
+					<section class="snippet-code-wrapper">
+						<h2>HTML</h2>
+						<p>Struttura contenuto</p>
+						<img src="./images/html-example.png"  alt="">
+					</section>
+
+					<section>
+						<h2>CSS</h2>
+						<p>Presentazione contenuto</p>
+						<img src="./images/css-example.png" style=" max-width: 500px;" alt="">
+					</section>
+
+					<section>
+						<h2>JS</h2>
+						<p>Interattività contenuto</p>
+						<img src="./images/js-example.png" style=" max-width: 800px;" alt="">
+					</section>
+
+				</section>
+
+				<section>
+					<h2>Ma non è mai così semplice...</h2>
+					<img src="./images/blonde-fail.gif" style="max-width:400px;" alt="">
+				</section>
+
+				<section data-transition="slide-in fade-out">
+
+					<section data-transition="slide-in fade-out">
+						<h2>Web dinamico</h2>
+						<img src="./images/old-flow.svg" style="border:0; background: transparent; box-shadow: initial;" alt="">
+					</section>
+
+					<section>
+						<h2>Problematiche</h2>
+						<ul>
+							<li><p>Spreco di banda</p></li>
+							<!--<p>Esempio Louboutin </p>-->
+							<li><p>Reloading di intere pagine</p></li>
+							<li><p>Codice ripetitivo</p></li>
+						</ul>
+					</section>
+
+					<section data-transition="slide-in fade-out">
+						<h2>Single Page Application</h2>
+						<img src="./images/new-flow.svg" style="border:0; background: transparent;box-shadow: initial;" alt="">
+						<!--<p>sideeffect slide successiva</p>-->
+					</section>
+
+				</section>
+				
+				
+				<section>
+
+					<section>
+						<h2>HTML problemi</h2>
+						<ul>
+							<li><p>Codice ridondante</p></li>
+							<li><p>Sintassi prolissa</p></li>
+							<li><p>Mancanza modularità</p></li>
+						</ul>
+					</section>
+
+					<section data-transition="slide-in fade-out">
+						<h2>Html preprocessor</h2>
+						<img src="./images/pug.svg" style="border:0; background: transparent; box-shadow: initial; max-width: 150px;margin: 20px;" alt="">
+						<img src="./images/handlebars.png" style="border:0; background: transparent; box-shadow: initial; max-width: 150px; margin: 20px;" alt="">
+					</section>
+					
+					<section>
+						<h2>Rossetti</h2>
+						<div class="compare-pics">
+							<img src="./images/pug-example.png" style="display: inline; margin: 10px;" alt="">
+						</div>
+					</section>
+					<section>
+						<h2>Mixin</h2>
+						<img src="./images/pug-mixin.png" style="display: inline; margin: 10px;" alt="">
+					</section>
+					<section>
+						<h2>Risultato</h2>
+						<img src="./images/html-pug.png" style="display: inline; margin: 10px;" alt="">
+					</section>
+				</section>
+
+				<section>
+
+					<section>
+						<h2>CSS problemi</h2>
+						<ul>
+							<li><p>Mancanza di programmabilità</p></li>
+							<li><p>Compatibilità</p></li>
+							<li><p>Mancanza di modularità</p></li>
+						</ul>
+					</section>
+
+					<section data-transition="slide-in fade-out">
+						<h2>CSS preprocessor & postprocessor</h2>
+						<div class="compare-pics">
+							<img src="./images/sass.png" style="border:0; background: transparent; box-shadow: initial; max-width: 150px;margin: 20px;" alt="">
+							<img src="./images/less.png" style="border:0; background: transparent; box-shadow: initial; max-width: 150px; margin: 20px;" alt="">
+							<!--<img src="./images/stylus.svg" style="border:0; background: transparent; box-shadow: initial; max-width: 150px; margin: 20px;" alt="">-->
+							<img src="./images/postcss.jpg" style="border:0; background: transparent; box-shadow: initial; max-width: 150px; margin: 20px; border-radius: 50%;" alt="">
+						</div>
+					</section>
+
+					<section>
+						<h2 style="margin-bottom: 0;">Le basi</h2>
+						<img src="./images/sass-variables.png" style="display: inline; " alt="">
+					</section>
+
+					<section>
+						<h2>Un nuovo sito di cosmesi</h2>
+						<img src="./images/sass-modules.png" style="display: inline; " alt="">
+					</section>
+
+					<section>
+						<h2>Scss Sintassi</h2>
+						<img src="./images/sass-syntax.png" style="display: inline; " alt="">
+					</section>
+
+				</section>
+				
+				<section>
+					<section>
+						<h2>Per un grande progetto, ci vuole un grande team</h2>
+						<h5>Team working</h5>
+					</section>
+				
+					<section>
+						<h2>Scaffolding</h2>
+						<img src="./images/yeoman.png" style="border:0; background: transparent; box-shadow: initial; max-width: 180px; margin: 20px;" alt="">
+						<!--<p>Determinare la struttura dei folder di progetto</p>-->
+					</section>
+
+					<section>
+						<h2>Condivisione di codice</h2>
+						<h5>Package manager</h5>
+						<div class="compare-pics">
+							<img src="./images/npm.png" style="border:0; background: transparent; box-shadow: initial; max-width: 170px; margin: 20px; border-radius: 50%;" alt="">
+							<img src="./images/bower.png" style="border:0; background: transparent; box-shadow: initial; max-width: 170px; margin: 20px;" alt="">
+							<img src="./images/yarn.png" style="border:0; background: transparent; box-shadow: initial;  margin: 20px;max-width: 170px;border-radius: 50%;" alt="">
+						</div>
+					</section>
+
+					<section>
+						<h2>package.json</h2>
+						<img src="./images/packagejson.png" style="display:inline; max-width: 800px; " alt="">
+					</section>
+
+					<section>
+						<h2>Per un codice "rifatto"</h2>
+						<h5>Linter</h5>
+						<img src="./images/penny3.gif" style="display: inline; min-width:300px;" alt="">
+					</section>
+					
+				</section>
+				
+				<section>
+					<section>
+						<h2>Automazione</h2>
+						<img src="./images/victoria.gif" style="display: inline; min-width:300px;" alt="">
+					</section>
+
+					<section>
+						<h2>Task runner & build tools</h2>
+							<img src="./images/gulp.jpg" style="border:0; background: transparent; box-shadow: initial; max-width: 170px; margin: 20px; border-radius: 50%;" alt="">
+							<img src="./images/grunt.png" style="border:0; background: transparent; box-shadow: initial; max-width: 170px; margin: 20px;" alt="">
+							<img src="./images/npm.png" style="border:0; background: transparent; box-shadow: initial; max-width: 170px; margin: 20px; border-radius: 50%;" alt="">
+							<img src="./images/webpack.png" style="border:0; background: transparent; box-shadow: initial; max-width: 170px; margin: 20px;" alt="">
+					</section>
+					
+					<section>
+						<h2>Gulp in azione</h2>
+						<img src="./images/gulp-example.png" style="display:inline; max-width: 800px;"  alt="">
+					</section>
+				  
+				</section>
+
+				<section>
+
+					<section>
+						<h2>Less is more!</h2>
+						<p>Le performance sono importanti sopratutto in produzione</p>
+						<img src="./images/pamela2.gif" style="display:inline; max-width: 800px;" alt="">
+					</section>
+
+					<section>
+						<h2>Minificare</h2>
+						<img src="./images/belly.gif" alt="">
+					</section>
+
+					<section>
+						<h2>Sprite</h2>
+						<img src="./images/sprites.svg" style="background: #ddd; padding: 10px 25px;" alt="">
+
+					</section>
+					
+				</section>
+
+				<section>
+					<h5>Morale della favola</h2>
+					<h2>Che tu sia bionda o meno</h2>
+					<h2>il front-end non è semplice</h2> 
+					<h2>ma nemmeno impossibile.</h2>
+				</section>
+					
+				<section>
+					<h2>The end</h2>
+					<img src="./images/penny2.gif" style="display: inline; min-width:300px;" alt="">
+				</section>
+					
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				//pdfMaxPagesPerSlide: 1
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

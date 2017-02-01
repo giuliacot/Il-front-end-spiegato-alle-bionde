@@ -1,0 +1,93 @@
+/*
+	Theme for blonde and pinky girls.
+	@author: giucot_
+*/
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+
+// Include theme-specific fonts
+//font-family:
+
+// Override theme settings (see ../template/settings.scss)
+@font-face {
+	font-family: 'ITC Franklin Gothic';
+	src: url('../../lib/font/ITCFranklinGothicSTD-DmCp.otf');
+}
+
+// Override main setting variable
+$mainFont: 'ITC Franklin Gothic';
+$headingFont: 'ITC Franklin Gothic';
+$mainFontSize: 35px;
+
+// Color variable
+$pink-light: #FF347F;
+$pink-dark: #CB007B;
+
+.title {
+	text-transform: uppercase;
+}
+
+.author {
+	
+}
+
+
+
+// Background generator
+@mixin bodyBackground() {
+	@include horizontal-gradient($pink-light, $pink-dark);
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.compare-pics {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	& img {
+		margin: 10px;
+	}
+}
+
+.puzzle-pics-container {
+	display: flex;
+	flex-wrap: wrap;
+	//justify-content: center;
+  align-items: center;
+  align-content: center;
+	justify-content: center;
+
+	& img.puzzle-pic {
+		border:0; 
+		background: transparent; 
+		box-shadow: initial; 
+		max-width: 10%; 
+		margin: 10px; 
+
+	}
+
+	& img.puzzle-pic--round {
+		border-radius: 50%;
+	}
+}
+
+.snippet-code-wrapper {
+	position: relative;
+
+	.snippet-code {
+		border: 0; 
+		max-width: 200px; 
+		background: transparent; 
+		box-shadow: initial;
+		position: absolute;
+	}
+
+}
+
+
