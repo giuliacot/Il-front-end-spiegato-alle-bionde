@@ -4,7 +4,7 @@
 */
 @font-face {
   font-family: 'ITC Franklin Gothic';
-  src: url("https://github.com/giuliacot/Il-front-end-spiegato-alle-bionde/blob/master/lib/font/ITCFranklinGothicStd-DmCp.otf"); }
+  src: url("./lib/font/ITCFranklinGothicStd-DmCp.otf"); }
 
 .title {
   text-transform: uppercase; }
