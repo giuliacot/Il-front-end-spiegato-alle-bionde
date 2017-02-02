@@ -23,7 +23,7 @@ body {
   background-color: #2b2b2b; }
 
 .reveal {
-  font-family: "ITC Franklin Gothic";
+  font-family: "Lato", sans-serif;
   font-size: 35px;
   font-weight: normal;
   color: #eee; }
@@ -54,7 +54,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #eee;
-  font-family: "ITC Franklin Gothic";
+  font-family: "League Gothic", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
