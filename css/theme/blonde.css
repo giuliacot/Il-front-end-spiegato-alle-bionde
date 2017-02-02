@@ -4,7 +4,7 @@
 */
 @font-face {
   font-family: 'ITC Franklin Gothic';
-  src: url("../../lib/font/ITCFranklinGothicStd-DmCp.otf"); }
+  src: url("../../../lib/font/ITCFranklinGothicStd-DmCp.otf"); }
 
 .title {
   text-transform: uppercase; }
